@@ -12,18 +12,19 @@
 <body>
 
 <h1 class="text-warning text-center">About Matter Hospital</h1>
-<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam amet assumenda atque blanditiis dolor dolore ipsa ipsum iusto, laboriosam, nostrum officiis perspiciatis porro quae quis sint tenetur, unde vel?</span><span>A adipisci alias aliquid asperiores deleniti dolores est illum ipsam mollitia natus nobis nulla odit officia officiis optio porro provident quidem rem reprehenderit, repudiandae saepe sed unde vel veritatis voluptate.</span><span>Accusamus adipisci alias aut beatae commodi consectetur, culpa cum delectus dolore ex expedita incidunt inventore, iste iusto nam nobis officiis porro qui quia rem repellendus sit temporibus veniam veritatis voluptate.</span><span>A asperiores at consequatur cum cupiditate deleniti dolore doloribus eligendi et excepturi exercitationem expedita facilis, illo illum in iure laudantium libero nisi non perspiciatis quia quo quos unde veniam vero?</span></p>
+<p class="container"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam amet assumenda atque blanditiis dolor dolore ipsa ipsum iusto, laboriosam, nostrum officiis perspiciatis porro quae quis sint tenetur, unde vel?</span><span>A adipisci alias aliquid asperiores deleniti dolores est illum ipsam mollitia natus nobis nulla odit officia officiis optio porro provident quidem rem reprehenderit, repudiandae saepe sed unde vel veritatis voluptate.</span><span>Accusamus adipisci alias aut beatae commodi consectetur, culpa cum delectus dolore ex expedita incidunt inventore, iste iusto nam nobis officiis porro qui quia rem repellendus sit temporibus veniam veritatis voluptate.</span><span>A asperiores at consequatur cum cupiditate deleniti dolore doloribus eligendi et excepturi exercitationem expedita facilis, illo illum in iure laudantium libero nisi non perspiciatis quia quo quos unde veniam vero?</span></p>
 <img src="static/asset/view.jpg" alt="" class="rounded mx-auto d-block ">
 <hr>
 
 <div class="d-flex bg-secondary m-5 p-5 text-light">
 
-    <img src="static/asset/view.jpg" class="me-5 rounded-circle" >
+    <img src="static/asset/view.jpg"  alt="" class="me-5 rounded-circle" >
     <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eaque eum facilis hic id incidunt ipsam itaque iusto laudantium maiores maxime mollitia nesciunt odio officia quasi, quod soluta ut veritatis!</span><span>Asperiores est et expedita in minima odit possimus quibusdam, sit vel. Alias dignissimos distinctio earum eligendi eos exercitationem facere facilis hic magnam, maiores modi, natus, placeat qui repudiandae sint tempora.</span><span>Aut autem laborum, magnam nobis pariatur perferendis repudiandae tempora tempore vero voluptatem! Aliquam aperiam, consequuntur delectus ex ipsum maiores maxime modi mollitia officia porro quidem ratione suscipit voluptates. Tenetur, voluptate.</span><span>Alias aliquam amet architecto assumenda autem dolor dolores dolorum earum error exercitationem facere inventore ipsa nulla officiis perferendis qui, quibusdam saepe sapiente vel velit! Ab distinctio dolores facilis ipsum vel?</span></p>
 
 </div>
 
-<table>
+<h2 class="text-center">PATIENT INFORMATION</h2>
+<table class="table table-striped table-info table-hover">
     <tr>
         <th>Id</th>
         <th>Patient Name</th>
@@ -31,7 +32,7 @@
         <th>Disease</th>
     </tr>
 
-     <tr>
+     <tr class="table-warning">
          <td>S5001</td>
          <td>Duke</td>
          <td>$250</td>
@@ -67,6 +68,62 @@
     </tr>
 
 </table>
+
+   <table class="table table-bordered table-striped">
+
+       <thead>
+       <tr>
+           <th>ID</th>
+           <th>Name</th>
+           <th>Subject</th>
+           <th>Marks</th>
+       </tr>
+       </thead>
+
+       <tbody>
+
+       <tr>
+           <td rowspan="3">1</td>
+           <td rowspan="3">David</td>
+           <td>Maths</td>
+           <td>80</td>
+       </tr>
+       
+       <tr>
+           <td>Physics</td>
+           <td>90</td>
+       </tr>
+
+       <tr>
+           <td>Computer</td>
+           <td>70</td>
+       </tr>
+
+       <tr>
+           <td rowspan="3">2</td>
+           <td rowspan="3">Alex</td>
+           <td>Maths</td>
+           <td>80</td>
+       </tr>
+       
+       <tr>
+           <td>Physics</td>
+           <td>70</td>
+       </tr>
+
+       <tr>
+           <td>computer</td>
+           <td>90</td>
+       </tr>
+       
+       </tbody>
+
+   </table>
+
+
+
+    
+
 
 </body>
 </html>
